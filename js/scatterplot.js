@@ -42,7 +42,7 @@ d3.csv("data/scatter.csv").then((dataS) => {
 
    const tooltip = d3.select("#csv-scatter") 
                 .append("div") 
-                .attr('id', "tooltip1") 
+                .attr('id', "tooltip") 
                 .style("opacity", 0) 
                 .attr("class", "tooltip"); 
 
